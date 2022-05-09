@@ -23,7 +23,7 @@ from sales_data_sample sds
 where YEAR_ID = 2003 and MONTH_ID = 11
 group by MONTH_ID ,PRODUCTLINE 
 order by 2 desc ;
-
+--Quien es el mejor cliente? (Analisis con RFM)
 DROP TABLE IF EXISTS #rfm
 ;with rfm as 
 (
